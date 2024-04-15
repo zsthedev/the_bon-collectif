@@ -19,11 +19,32 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
 
     > svg {
       margin-top: 5vw;
       width: 50%;
       color: var(--light);
+    }
+
+    .text {
+      > p {
+        font-size: 1vw;
+        color: var(--light);
+        text-transform: uppercase;
+        text-align: center;
+        background-color: red;
+        line-height: 0vw;
+      }
+
+      > h2 {
+        line-height: 0%;
+        font-size: 2.5vw;
+        font-weight: 600;
+        line-height: 2.5vw;
+        letter-spacing: -0.01vw;
+        color: var(--light);
+      }
     }
   }
 }
