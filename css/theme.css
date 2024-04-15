@@ -1,0 +1,14 @@
+:root {
+  --light: hsl(47, 92%, 95%);
+  --yellow: #ffb703;
+  --black: #010101;
+}
+
+@font-face {
+  font-family: neue_regular;
+  src: url("../assets/fonts/neue/neue_reg.otf");
+}
+@font-face {
+  font-family: sharp;
+  src: url("../assets/fonts/sharp/sharp.ttf");
+}
